@@ -23,6 +23,6 @@ Por fim, imprimimos uma quebra de linha (echo "\n";) para que a próxima linha d
 
 ## CRIAÇÃO DO X
 
-Nessa solução, utilizamos dois loops for aninhados para percorrer cada posição da cruz. Na condição do if, verificamos se a posição atual está na diagonal principal (ou seja, se a posição da linha é igual à posição da coluna) ou na diagonal secundária.
+Nessa solução, utilizamos dois loops for aninhados para percorrer cada posição do "X". Na condição do if, verificamos se a posição atual está na diagonal principal (ou seja, se a posição da linha é igual à posição da coluna) ou na diagonal secundária.
 
 Quando a condição é verdadeira, imprimimos um asterisco. Caso contrário, imprimimos um ponto. Por fim, utilizamos a função echo para imprimir uma quebra de linha (\n) após imprimir cada linha da cruz.
